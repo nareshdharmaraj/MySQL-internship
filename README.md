@@ -54,21 +54,17 @@ This repository contains my **Blood Donation Management System** developed as pa
 
 ---
 
-### 6️⃣ **`ExecutionVideo.mp4`**
-- A short **video recording** demonstrating:
-  - The working system
-  - Donor & recipient registration
-  - Blood donation entry & stock updates
-  - Approving & rejecting requests
-  - Reports & statistics in real-time
-
----
-
-### 7️⃣ **`TaskDetails.pdf`**
-- This PDF contains:
+### 6️⃣ **`TaskDetails.pdf`**
+  - This PDF contains:
   - The **original internship task details**
   - All objectives & expected outputs
   - Reference for what the project was designed to achieve
+
+---
+
+### 7️⃣ **`ExecutionVideo`**
+  - A full project execution video has been uploaded to YouTube.
+  - You can watch it here: https://youtu.be/Ik_2XMRU5Sw
 
 ---
 
