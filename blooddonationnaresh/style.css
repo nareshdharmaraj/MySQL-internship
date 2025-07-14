@@ -1,0 +1,181 @@
+/* === BASE === */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #333;
+}
+
+/* === HEADER === */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e63946;
+  color: #fff;
+  padding: 40px 50px;
+  flex-wrap: wrap;
+}
+
+.header-left {
+  flex: 1 1 60%;
+}
+
+.header-left h1 {
+  margin: 0 0 10px;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+.header-left .intro {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.profile {
+  text-align: center;
+  flex: 0 0 150px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  object-fit: cover;
+}
+
+.badge {
+  background: #f1faee;
+  color: #333;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header-left, .profile {
+    flex: 1 1 100%;
+  }
+}
+
+/* === TABS === */
+.tabs {
+  display: flex;
+  justify-content: center;
+  background: #1d3557;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  padding: 15px 30px;
+  color: #f1faee;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.tabs button:hover {
+  background: #457b9d;
+}
+
+/* === CONTENT === */
+.tab-content {
+  max-width: 1000px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.block {
+  margin-bottom: 40px;
+}
+
+.block h2 {
+  margin-top: 0;
+  color: #1d3557;
+  border-bottom: 2px solid #1d3557;
+  padding-bottom: 5px;
+}
+
+/* === FORMS === */
+form input,
+form select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+form button {
+  background: #1d3557;
+  color: #f1faee;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+form button:hover {
+  background: #457b9d;
+}
+
+/* === REPORTS === */
+.reports {
+  margin-top: 30px;
+}
+
+.reports h2 {
+  color: #e63946;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th {
+  background: #1d3557;
+  color: #f1faee;
+  padding: 10px;
+}
+
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+/* === MESSAGES === */
+.message {
+  max-width: 1000px;
+  margin: 20px auto;
+  background: #f1faee;
+  border: 2px solid #e63946;
+  color: #e63946;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
